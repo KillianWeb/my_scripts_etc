@@ -1,0 +1,11 @@
+.window-close {
+translate: 10px -5px;
+transform:scale(2);
+display: inline-flex;
+align-items: flex-end;
+justify-content: left;
+}
+.window-close > svg{
+translate: -3px -1px;
+transform: scale(.5);
+}
