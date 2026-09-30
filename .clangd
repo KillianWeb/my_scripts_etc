@@ -1,0 +1,11 @@
+/////REMOVE THIS LINE AND RENAME FILE TO .clangd AND PUT IN DIR OF CPP FILE TO USE COCNVIM CLANGD
+CompileFlags:
+    Remove: [-f*, -m*]
+    Add:
+       - "-I/usr/include/c++/13"
+       - "-I/usr/include/x86_64-linux-gnu/c++/13"
+       - "-I/usr/include/c++/13/backward"
+       - "-I/usr/lib/gcc/x86_64-linux-gnu/13/include"
+       - "-I/usr/local/include"
+       - "-I/usr/include/x86_64-linux-gnu"
+       - "-I/usr/include"
